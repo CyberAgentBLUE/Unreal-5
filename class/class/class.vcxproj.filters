@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Player">
+      <UniqueIdentifier>{cfece6fa-a273-482d-ad32-c9bc453a431a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Warrior">
+      <UniqueIdentifier>{8b8f24a2-3c5b-4628-a521-8f3ba48fcad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Archer">
+      <UniqueIdentifier>{70e5951e-de32-4d65-8202-42fb0159ec32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Magician">
+      <UniqueIdentifier>{76e9a685-32ce-4d7e-af88-f316a50cbbc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Thief">
+      <UniqueIdentifier>{d76a83f1-ef31-4b1c-ba8d-1a5b4a00731b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="class.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>헤더 파일\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Warrior.cpp">
+      <Filter>헤더 파일\Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="Archer.cpp">
+      <Filter>헤더 파일\Archer</Filter>
+    </ClCompile>
+    <ClCompile Include="Magician.cpp">
+      <Filter>헤더 파일\Magician</Filter>
+    </ClCompile>
+    <ClCompile Include="Thief.cpp">
+      <Filter>헤더 파일\Thief</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h">
+      <Filter>헤더 파일\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Warrior.h">
+      <Filter>헤더 파일\Warrior</Filter>
+    </ClInclude>
+    <ClInclude Include="Archer.h">
+      <Filter>헤더 파일\Archer</Filter>
+    </ClInclude>
+    <ClInclude Include="Magician.h">
+      <Filter>헤더 파일\Magician</Filter>
+    </ClInclude>
+    <ClInclude Include="Thief.h">
+      <Filter>헤더 파일\Thief</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
